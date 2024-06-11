@@ -4,17 +4,6 @@ A DIY Robot comprised of two microcontrollers, namely the ESP32 and Arduino Nano
 All-In-One Robot
 (Using Arduino Nano and ESP32)
 
-Group
-Mohammad Osama [221761]
-Arsh-e-Barin Khurshid [221687]
-Muhammad Talal Khan [221714]
-Umar Farooq [221716]
-
-Instructor
-Umar Farooq
-Date
-11th June, 2024
-
 Problem Statement:
 Design and build REHBER the Line Following Robot that must follow a random given path on a Planet with a black and white surface using Infrared sensors using a range of resources, while also detecting obstacles, distinct colours, while also utilizing voltage and current sensors along with a speed encoder on each motor. 
 
