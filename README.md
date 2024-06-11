@@ -7,7 +7,7 @@ All-In-One Robot
 Problem Statement:
 Design and build REHBER the Line Following Robot that must follow a random given path on a Planet with a black and white surface using Infrared sensors using a range of resources, while also detecting obstacles, distinct colours, while also utilizing voltage and current sensors along with a speed encoder on each motor. 
 
-Objective
+Objective:
 Develop a comprehensive solution for enhancing the functionality of a line-following robot by integrating Bluetooth control and Wi-Fi capabilities using an ESP32 microcontroller. The system should also incorporate an OLED LCD display, a .96-inch screen for real-time data visualization. Additionally, it should include a voltage sensor, a current sensor, and a speed encoder, all interfaced with the ESP32 to provide accurate readings displayed on the OLED screen. 
 Furthermore, the project requires the utilization of an Arduino Nano microcontroller to control a motor driver (L298N) and manage inputs from five infrared (IR) sensors. The primary function of this setup is to facilitate the robot's movement along black lines, detected by the IR sensors. The Arduino Nano should interpret signals from these sensors and adjust the motor's speed and direction accordingly. 
 Moreover, the system must integrate a colour sensor for detecting different hues along the path and an ultrasonic sensor to identify obstacles in the robot's vicinity. These additional sensors should provide real-time feedback to the ESP32 microcontroller, enabling the robot to adapt its course dynamically based on detected colours and avoid collisions with obstacles. 
@@ -15,7 +15,7 @@ The overall objective is to create a versatile and autonomous line-following rob
 
 
 
-Task
+Task:-
     1. ESP32 Microcontroller: 
 Bluetooth Control: Implement Bluetooth communication protocol to enable remote control of the robot via a smartphone or other Bluetooth-enabled devices. 
 Wi-Fi Capabilities: Configure the ESP32 to connect to a Wi-Fi network, allowing for remote monitoring and control over the internet. 
@@ -39,14 +39,14 @@ User Interface: Design a user-friendly interface on the OLED display to provide 
 Testing and Optimization: Conduct thorough testing to ensure the reliability, accuracy, and efficiency of the entire system. Optimize algorithms and parameters for optimal performance in various operating conditions. 
 By breaking down the implementation into distinct tasks for each component, you can focus on developing and integrating each part separately before testing and optimizing the complete system.
  
-Scope
+Scope:
 This project encompasses the following key aspects:
 Component Selection: Choosing appropriate components, including the Arduino microcontroller, IR sensor module, and display unit.
 Circuit Design and Assembly: Designing and assembling the electronic circuit to interface the IR sensor with the Arduino and other components.
 Programming: Developing the software to process sensor data, calculate RPM, and display the results.
 Calibration and Testing: Calibrating the tachometer to ensure accurate measurements and testing it under various conditions to verify its performance.
 
-Components
+Components:
 1. Arduino Microcontroller
 Model: Arduino Nano R3
 Description: A widely used microcontroller board with ample digital and analog I/O pins, suitable for prototyping.
@@ -118,7 +118,7 @@ Push buttons or toggle switches for user inputs (e.g., start/stop measurement)
 LED Indicators:
 Optional LEDs to indicate power status or operational states
 
-Expected Outcomes
+Expected Outcomes:
 Upon successful completion of this project, we will have a functional ESP and Arduino-based robot capable of accurately measuring and displaying the RPM of rotating motors, along with color sensing, line following, data displaying on an LCD, voltage and current sensing, and storing in an SD Card. The device will be user-friendly, with clear instructions for assembly and operation. The knowledge gained from this project can be applied to further development and enhancement of robotic devices, potentially leading to more advanced and specialized applications.
 
 
